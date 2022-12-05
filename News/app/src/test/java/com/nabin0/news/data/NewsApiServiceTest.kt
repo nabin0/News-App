@@ -46,7 +46,7 @@ class NewsApiServiceTest {
             val responseBody = newsAPIService.getTopHeadlines("us", 1).body()
             val request = mockWebServer.takeRequest()
             assertThat(responseBody).isNotNull()
-            assertThat(request.path).isEqualTo("/v2/top-headlines?country=us&page=1&apiKey=74636600ffb947089b6bae3ce84066c0")
+            assertThat(request.path).isEqualTo("/v2/top-headlines?country=us&page=1&apiKey=Your api key")
         }
     }
 
