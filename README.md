@@ -10,7 +10,6 @@ This is the simple news app. The data is fetch from the api using retrofit. MVVM
 - Coroutines
 
 ## Screenshots
-
-<img src="https://github.com/nabin0/News-App/blob/main/screenshots/news_homepage.jpg" width="280px">
+![News Homepage](https://github.com/nabin0/News-App/blob/main/screenshots/news_homepage.jpg)
 <img src="screenshots/news_webview.jpg" width="280px">
 <img src="screenshots/saved_news.jpg" width="280px">
